@@ -116,7 +116,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
                 <Input
                   type="file"
                   accept="image/*"
-                  placeholder="Upload a photo"
+                  placeholder="Upload a photo here"
                   className="account-form_image-input"
                   onChange={(e) => handleImage(e, field.onChange)}
                 />
